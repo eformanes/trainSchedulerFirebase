@@ -83,7 +83,7 @@ database.ref().once("value", function(snapshot) {
     	// Subtract a year to make sure it always is less than the current time?
     	//convertedFirstTrainTime = convertedFirstTrainTime.subtract(1, "years");
     	// Decrement start time by a day??
-    	console.log("Start Time - " + convertedFirstTrainTime);
+    	console.log("Start Time is " + convertedFirstTrainTime);
 
     	// Set curent time to a moment
     	var now = moment();
